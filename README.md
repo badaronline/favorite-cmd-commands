@@ -1,5 +1,23 @@
-# **favorite-cmd-commands**
-## _**Some Important Bash Commands**_
+# **Badar-Favorite-Cmd-Commands**
+# _**Some Important Bash Commands**_
+
+## $ pwd
+To print working directory.
+
+## $ cd 
+To change directory.
+
+## $ cd ..
+To go back to previous/parent directory
+
+## $ cd /
+To go back to home directory.
+
+## $ clear
+To clear everything.
+
+## $ code .
+To open VS code in current. 
 
 ## $ mkdir FolderName
 To create a folder / directory in current location.
@@ -53,7 +71,13 @@ To copy the content of FolderName1 and paste inside FolderName2.
 ## $ mv FolderName1 FolderName2
 To move (cut and paste) FolderName1 inside FolderName2.
 
-## _**Some Important GIT Related Commands**_
+# _**Some Important GIT Related Commands**_
+
+## $ git config --global user.name <name>
+To define the author name to be used for all commits by the current user.
+
+## $ git config --global user.email <email>
+To define the author email to be used for all commits by the current user. 
 
 ## $ git init
 To Create / initial a git repository.
@@ -67,7 +91,10 @@ To add all files and folders to a new commit.
 ## $ git commit -m "Commit Message"
 To commit the file with a text message.
 
-## $ git checkout -- fileName
+## $ git status
+To check the git status.
+
+## $ git checkout -- FileName
 To discard any changes and reset / restore the file to the previous commit.
 
 ## $ git log
@@ -76,13 +103,28 @@ To Show all commits.
 ## $ git log -p
 To show all commits and contents of the files.
 
-## _**Some Important GITHUB Related Commands**_
+# _**Some Important GITHUB Related Commands**_
 
 ## $ git clone
 To clone an existing online repository on your local computer.
 
 ## $ git push
-To upload commits to an online repository.
+To push/upload commits of local repository in a remote/online repository.
 
 ## $ git pull
-To download commits form an online repository.
+To pull/download commits of a remote/online repository into local repository.
+
+## $ git branch
+To show branches.
+
+## $ git branch BranchName
+To create a new branch.
+
+## $ git checkout BranchName
+To enter in BranchName from current branch.
+
+## $ git checkout -b BranchName
+To create new branch and change folder into that state same time.
+
+## $ git merge BranchName
+To merge BranchName into current branch.
